@@ -182,10 +182,18 @@ w和x是矩阵向量
 实际值与期望值之间的偏差
 
 最常用的损失函数
+最常用的损失函数
 
-- MSE: $\mathcal{L}_{\text{MSE}} = \frac{1}{N}\sum_{i=1}^N \big(y_i - \hat{y}_i\big)^2$
-- BCE: $\mathcal{L}_{\text{BCE}} = -\frac{1}{N}\sum_{i=1}^N \Big[y_i\log(\hat{y}_i)+(1-y_i)\log(1-\hat{y}_i)\Big]$
+**MSE**
+$$
+\mathcal{L}_{\text{MSE}} = \frac{1}{N}\sum_{i=1}^N \big(y_i - \hat{y}_i\big)^2
+$$
 
+**BCE**
+$$
+\mathcal{L}_{\text{BCE}} = -\frac{1}{N}\sum_{i=1}^N \Big[y_i\log(\hat{y}_i)+(1-y_i)\log(1-\hat{y}_i)\Big]
+$$\
+好像这个公式渲染不出来，奇怪，为什么梯度下降那个公式就可以\
 二分类 我们用交叉熵损失函数
 
 **训练模型**
