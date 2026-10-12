@@ -349,7 +349,7 @@ softmax  把线性打分（logits）转换为概率，数值相加之和为一
 
 
 ------
-
+![代码运行结果](images/run_result.png)
 
 ### 1. 为什么不同项目最好使用不同的 Python 虚拟环境？
 
