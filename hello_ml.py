@@ -1,4 +1,4 @@
-# hello_ml.py 自学了python语法(可能学的不够深入)，ai辅助完成，弄懂了每一步在干什么
+# hello_ml.py 
 import numpy as np
 
 scores = {
